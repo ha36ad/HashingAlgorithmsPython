@@ -14,8 +14,8 @@ encoded_message = message.encode()
 #pick your type of hash algorithm
 while X == 0:
         hashh = input("Input hash type (SHA-2,SHA-3,BLAKE2): ")
-#pick between 256 and 512 bytes
-        hash_type = input ("Input byte size (256 or 512): ")
+#pick between 256 and 512 bit
+        hash_type = input ("Input bit size (256 or 512): ")
         
         #SHA2
         if hashh == "SHA-2" and hash_type == "256":
